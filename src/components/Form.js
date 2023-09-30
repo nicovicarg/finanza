@@ -8,7 +8,8 @@ function Form(props){
 
         const ob = {
             detalle: detalle,
-            precio: parseInt(precio)
+            precio: parseInt(precio),
+            total: parseInt(precio)
         }
         
         props.onSubmit(ob)
